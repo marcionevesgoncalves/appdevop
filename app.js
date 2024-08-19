@@ -3,7 +3,7 @@ const express = require("express")
 const app = express();
 
 const PORT = 3001
-let msn = "Hello World - part 1!"
+let msn = "Hello World - Part master!"
 
 app.get('/',(req,res)=>{
     res.send(msn)
