@@ -9,6 +9,6 @@ app.get('/',(req,res)=>{
     res.send(msn)
 })
 
-app.listen(PORT,'marcionevesgoncalves.github.io', ()=>{
+app.listen(PORT, ()=>{
     console.log(`Servidor rodando na porta ${PORT}`)
 })
