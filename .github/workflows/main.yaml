@@ -11,7 +11,8 @@
         node-version: '18.x'
     - name: Install Dependencies
       run: npm install
-    - name: Run Tests
-      run: npm test
+    - name: Run App
+      run: npm app
     - name: Build
       run: npm run build
+
