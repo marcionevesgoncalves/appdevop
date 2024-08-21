@@ -12,7 +12,7 @@
     - name: Install Dependencies
       run: npm install
     - name: Run App
-      run: npm app
+      run: npm start
     - name: Build
       run: npm run build
 
