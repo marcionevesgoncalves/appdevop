@@ -1,1 +1,3 @@
-window.alert("teste")
+var elemento = document.querySelector("#paragrafo")
+
+elemento.innerHTML = "ALTERAÇÃO DE TEXTO"
