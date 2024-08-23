@@ -1,3 +1,4 @@
-var elemento = document.querySelector("#paragrafo")
-
-elemento.innerHTML = "ALTERAÇÃO DE TEXTO"
+function alteraTexto(){
+    var elemento = document.querySelector("#paragrafo")
+    elemento.innerHTML = "ALTERAÇÃO DE TEXTO"
+}
